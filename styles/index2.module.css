@@ -1,0 +1,194 @@
+.headerCover {
+    background-image: url('/images/banner/uom_cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.headerCover2 {
+    background-image: url('/images/banner/iot_back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Parameter Cards Section */
+
+.parameterCard {
+    width: 330px;
+    height: 220px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.servicesSection {
+    padding-left: 400px;
+    padding-right: 400px;
+    background-image: url('/images/banner/itfac_cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parameterCard .titleRow {
+    height: 50px;
+}
+
+.parameterCardIcon {
+    font-size: 44px;
+}
+
+.parameterCard .titleRow h6 {
+    color: #636e72;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.parameterCard .cardBody {
+    flex-grow: 1;
+    height: 200px;
+}
+
+.parameterCard .cardBody h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.parameterCard .cardBody h4 {
+    color: #636e72;
+    margin-top: -10px;
+    font-weight: bold;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.parameterCard .updateDate {
+    color: #636e72;
+}
+
+/* Projects Section */
+.projectsCard {
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.projectsCard .projectImage {
+    width: 350px;
+    height: 150px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    transition: 0.8s;
+}
+
+.projectsCard:hover .projectImage {
+    width: 450px;
+    height: 450px;
+}
+
+.projectsCard:hover .projectsCard .h5,
+.p {
+    display: none;
+}
+
+.galleryCard {
+    width: 350px;
+    height: 350px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.galleryCard .galleryImage {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    transition: 0.8s;
+}
+
+.galleryImage:hover {
+    width: 370px;
+    height: 370px;
+}
+
+/* Footer Section */
+.footerStyle {
+    background-image: url('/images/banner/uom_cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Contact Section */
+
+.contactSection {
+    background-image: url('/images/banner/itfac_cover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contactCard {
+    width: 330px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 1500px) {
+    .servicesSection {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .servicesSection {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .servicesSection {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .servicesSection {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width:6800px) {
+    .servicesSection {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

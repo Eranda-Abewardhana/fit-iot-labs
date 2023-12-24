@@ -1,0 +1,224 @@
+.headerCover {
+    background-image: url('/images/banner/uom_cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    font-family: Epilogue, sans-serif;
+}
+
+.headerCover2{
+    background-image: url('/images/banner/iotworkshop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    font-family: Epilogue, sans-serif;
+}
+
+.headerCover .uomLogo{
+    width: 100px;
+    height: 100px;
+}
+
+.headerCover .aheadLogo{
+    width: 200px;
+    height: 100px;
+}
+
+.headerCover .heading{
+    font-size: 50px;
+}
+
+.headerCover .subheading{
+    font-size: 25px;
+    color: #bdc3c7;
+}
+
+
+
+/* Parameter Cards Section */
+
+.parameterCard {
+    width: 400px;
+    height: 300px;
+    background-image: url('/images/banner/cloud2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.parameterCard .titleRow {
+    height: 50px;
+}
+
+.parameterCard .icon {
+
+    font-size: 24px;
+}
+
+.parameterCard .titleRow h6 {
+    color: #636e72;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.parameterCard .cardBody {
+    flex-grow: 1;
+    height: 200px;
+}
+
+.parameterCard .cardBody h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.parameterCard .cardBody h4 {
+    color: #636e72;
+    margin-top: -10px;
+    font-weight: bold;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.parameterCard .updateDate {
+    color: #636e72;
+}
+
+.parameterCard .windDirectionIcon{
+    width: 120px;
+    height: 120px;
+}
+
+.parameterCard .progressBarContainer{
+    width: 130px;
+    height: 130px;
+}
+
+/* Chart Section */
+.parameterSelect {
+    transition: 0.5s;
+}
+
+.parameterSelect:hover {
+    background-color: #ccc;
+}
+
+.timeIntervalButton {
+    background-color: #192a56;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.timeIntervalButton:hover {
+    background-color: #192a96;
+    color: #fff;
+}
+
+/* Footer Section */
+.footerStyle {
+    background-image: url('/images/banner/uom_cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.servicesCard{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Contact Section */
+
+.contactSection{
+    /*background-image: url('/images/banner/itfac_cover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    
+}
+
+.contactCard {
+    width: 330px;
+    height: 250px;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 400px) {
+    .headerCover .uomLogo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .headerCover .aheadLogo {
+        width: 100px;
+        height: 50px;
+    }
+
+    .headerCover .heading {
+        font-size: 30px;
+    }
+
+    .headerCover .subheading {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .parameterCard {
+        width: 300px;
+        height: 200px;
+        margin: 20px 0 20px 0;
+    }
+
+    .parameterCard .cardBody h1 {
+        font-size: 40px;
+        margin-top: 0px;
+        font-weight: bold;
+        font-family: 'Epilogue', sans-serif;
+    }
+
+    .parameterCard .cardBody {
+        flex-grow: 1;
+        height: 100px;
+    }
+
+    .parameterCard .windDirectionIcon{
+        width: 90px;
+        height: 90px;
+    }
+
+    .parameterCard .progressBarContainer{
+        width: 100px;
+        height: 100px;
+    }
+}
